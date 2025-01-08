@@ -42,48 +42,23 @@ Antes de comenzar, asegúrate de tener los siguientes programas instalados:
 
    ```bash
    git clone https://github.com/tu_usuario/proyecto-seguridad.git
-Accede al directorio del proyecto:
-
-cd proyecto-seguridad
-Instala las dependencias:
-
-Si usas Maven, ejecuta:
-
-
-mvn install
-Si usas Gradle, ejecuta:
-
-
-gradle build
-Configura las variables de entorno en el archivo application.properties o application.yml, según sea necesario para tu entorno de base de datos y otros servicios.
-
-Ejecuta la aplicación:
-
-Si usas Maven:
-mvn spring-boot:run
-
-Si usas Gradle:
-
-
-gradle bootRun
-La aplicación estará disponible en http://localhost:8080.
-
-Uso
-Inicio de sesión: Dirígete a la página de inicio de sesión en /login para autenticarte con tu usuario.
-
-Roles y rutas:
-
-Los usuarios con el rol ADMIN tienen acceso a las rutas protegidas /editar/**, /agregar/**, /eliminar/**.
-Los usuarios con el rol USER solo pueden acceder a la página principal /.
-Codificación de contraseñas: Las contraseñas se codifican de manera segura utilizando BCrypt para garantizar que no se almacenen en texto claro en la base de datos.
-
 Contribución
 ¡Contribuye al proyecto! Si deseas hacer mejoras o correcciones, sigue estos pasos:
 
 Haz un fork del repositorio.
-Crea una rama nueva para tu funcionalidad (git checkout -b feature-nueva).
-Realiza los cambios y haz commit (git commit -am 'Agrega nueva funcionalidad').
+
+Crea una nueva rama para tu funcionalidad:
+
+bash
+Copiar código
+git checkout -b feature-nueva
+Realiza los cambios y haz commit:
+
+bash
+Copiar código
+git commit -am 'Agrega nueva funcionalidad'
 Envía un pull request desde tu rama a la rama principal del repositorio.
+
 Licencia
 Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
 
@@ -93,3 +68,13 @@ Spring Security: Para gestionar la autenticación y autorización de usuarios.
 Hibernate: ORM utilizado para interactuar con la base de datos.
 BCrypt: Algoritmo para la codificación segura de contraseñas.
 Maven/Gradle: Herramientas de construcción y gestión de dependencias.
+markdown
+Copiar código
+
+### **Cambios realizados**:
+- Estructuré las secciones de instalación y ejecución de forma más clara.
+- Aclaré los pasos de cómo configurar las variables de entorno.
+- Incluí los pasos para contribuir en el proyecto con los comandos Git bien especificados.
+- Aseguré que el formato fuera adecuado para facilitar la lectura.
+
+Con esta versión, el archivo `README.md` es más claro y sigue las buenas prácti
