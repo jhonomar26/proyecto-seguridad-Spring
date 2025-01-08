@@ -50,7 +50,6 @@ Antes de comenzar, asegúrate de tener los siguientes programas instalados:
 
 Si estás usando Maven:
   
-  ```bash
   mvn clean install
 ## Contribución
 
@@ -61,4 +60,17 @@ Si estás usando Maven:
 
    ```bash
    git checkout -b feature-nueva
+## Licencia
+
+Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
+
+---
+
+## Tecnologías Utilizadas
+
+- **Spring Boot**: Framework para construir aplicaciones web.
+- **Spring Security**: Para gestionar la autenticación y autorización de usuarios.
+- **Hibernate**: ORM utilizado para interactuar con la base de datos.
+- **BCrypt**: Algoritmo para la codificación segura de contraseñas.
+- **Maven** o **Gradle**: Herramientas de construcción y gestión de dependencias.
 
