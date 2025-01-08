@@ -42,39 +42,23 @@ Antes de comenzar, asegúrate de tener los siguientes programas instalados:
 
    ```bash
    git clone https://github.com/tu_usuario/proyecto-seguridad.git
-Contribución
+2. **Acceder al directorio del proyecto**:
+
+   ```bash
+   cd proyecto-seguridad
+3. **Compilar el pr**:
+
+Si estás usando Maven:
+  
+  ```bash
+  mvn clean install
+## Contribución
+
 ¡Contribuye al proyecto! Si deseas hacer mejoras o correcciones, sigue estos pasos:
 
-Haz un fork del repositorio.
+1. Haz un **fork** del repositorio.
+2. Crea una nueva rama para tu funcionalidad:
 
-Crea una nueva rama para tu funcionalidad:
+   ```bash
+   git checkout -b feature-nueva
 
-bash
-Copiar código
-git checkout -b feature-nueva
-Realiza los cambios y haz commit:
-
-bash
-Copiar código
-git commit -am 'Agrega nueva funcionalidad'
-Envía un pull request desde tu rama a la rama principal del repositorio.
-
-Licencia
-Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
-
-Tecnologías utilizadas
-Spring Boot: Framework para construir aplicaciones web.
-Spring Security: Para gestionar la autenticación y autorización de usuarios.
-Hibernate: ORM utilizado para interactuar con la base de datos.
-BCrypt: Algoritmo para la codificación segura de contraseñas.
-Maven/Gradle: Herramientas de construcción y gestión de dependencias.
-markdown
-Copiar código
-
-### **Cambios realizados**:
-- Estructuré las secciones de instalación y ejecución de forma más clara.
-- Aclaré los pasos de cómo configurar las variables de entorno.
-- Incluí los pasos para contribuir en el proyecto con los comandos Git bien especificados.
-- Aseguré que el formato fuera adecuado para facilitar la lectura.
-
-Con esta versión, el archivo `README.md` es más claro y sigue las buenas prácti
